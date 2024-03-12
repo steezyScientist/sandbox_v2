@@ -1,0 +1,2 @@
+C:\Users\Artem\source\repos\sandybox\sandybox\x64\Debug\sandybox.vcxproj.CopyComplete
+C:\Users\Artem\source\repos\sandbox_v2\sandybox\x64\Debug\sandybox.vcxproj.CopyComplete

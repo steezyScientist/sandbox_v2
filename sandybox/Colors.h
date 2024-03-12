@@ -1,0 +1,120 @@
+#pragma once
+
+
+//BASIC COLORS
+#define BLACK   glm::vec3(0.0f,0.0f,0.0f)
+#define WHITE   glm::vec3(1.0f,1.0f,1.0f)
+#define RED     glm::vec3(1.0f,0.0f,0.0f)
+#define GREEN   glm::vec3(0.0f,1.0f,0.0f)
+#define BLUE    glm::vec3(0.0f,0..0,1.0f)
+#define YELLOW  glm::vec3(1.0f,1.0f,0.0f)
+#define PURPLE  glm::vec3(1.0f,0.0f,1.0f)
+#define GREY    glm::vec3(0.25f)
+
+//GREY SHADES
+#define GREY05  WHITE*0.05
+#define GREY10  WHITE*0.10
+#define GREY15  WHITE*0.15
+#define GREY20  WHITE*0.20
+#define GREY25  WHITE*0.25
+#define GREY30  WHITE*0.30
+#define GREY35  WHITE*0.35
+#define GREY40  WHITE*0.40
+#define GREY45  WHITE*0.45
+#define GREY50  WHITE*0.50
+#define GREY55  WHITE*0.55
+#define GREY60  WHITE*0.60
+#define GREY65  WHITE*0.65
+#define GREY70  WHITE*0.70
+#define GREY75  WHITE*0.75
+#define GREY80  WHITE*0.80
+#define GREY85  WHITE*0.85
+#define GREY90  WHITE*0.90
+#define GREY95  WHITE*0.95
+
+//OTHER COLORS
+#define  Aquamarine			glm::vec3(0.439216f,0.858824f,0.576471f)
+#define  BlueViolet			glm::vec3(0.62352f, 0.372549f,0.623529f)
+#define  Brown				glm::vec3(0.647059f0.164706f,0.164706f)
+#define  CadetBlue			glm::vec3(0.372549f0.623529f,0.623529f)
+#define  Coral				glm::vec3( 1.0f,0.498039f,0.0f)
+#define  CornflowerBlue		glm::vec3(0.258824f,0.258824f,0.435294f)
+#define  DarkGreen			glm::vec3(0.184314f,0.309804f,0.184314f)
+#define  DarkOliveGreen		glm::vec3(0.309804f,0.309804f,0.184314f)
+#define  DarkOrchid			glm::vec3(0.6f,0.196078f,0.8f)
+#define  DarkSlateBlue		glm::vec3(0.419608f,0.137255f,0.556863f)
+#define  DarkSlateGray		glm::vec3(0.184314f,0.309804f,0.309804f)
+#define  DarkSlateGrey		glm::vec3(0.184314f,0.309804f,0.309804f)
+#define  DarkTurquoise		glm::vec3(0.439216f,0.576471f,0.858824f)
+#define  Firebrick			glm::vec3(0.556863f,0.137255f,0.137255f)
+#define  ForestGreen		glm::vec3(0.137255f,0.556863f,0.137255f)
+#define  Gold				glm::vec3(0.8f,0.498039f,0.196078f)
+#define  Goldenrod			glm::vec3(0.858824f,0.858824f,0.439216f)
+#define  GreenYellow		glm::vec3(0.576471f,0.858824f,0.439216f)
+#define  IndianRed			glm::vec3(0.309804f,0.184314f,0.184314f)
+#define  Khaki				glm::vec3(0.623529f,0.623529f,0.372549f)
+#define  LightBlue			glm::vec3(0.74902f,0.847059f,0.847059f)
+#define  LightSteelBlue		glm::vec3(0.560784f,0.560784f,0.737255f)
+#define  LimeGreen			glm::vec3(0.196078f,0.8f,0.196078f)
+#define  Maroon				glm::vec3(0.556863f,0.137255f,0.419608f)
+#define  MediumAquamarine   glm::vec3(0.196078f,0.8f,0.6f)
+#define  MediumBlue			glm::vec3(0.196078f,0.196078f,0.8f)
+#define  MediumForestGreen  glm::vec3(0.419608f,0.556863f,0.137255f)
+#define  MediumGoldenrod	glm::vec3(0.917647f,0.917647f,0.678431f)
+#define  MediumOrchid		glm::vec3(0.576471f,0.439216f,0.858824f)
+#define  MediumSeaGreen		glm::vec3(0.258824f,0.435294f,0.258824f)
+#define  MediumTurquoise	glm::vec3(0.439216f,0.858824f,0.858824f)
+#define  MediumVioletRed	glm::vec3(0.858824f,0.439216f,0.576471f)
+#define  MidnightBlue		glm::vec3(0.184314f,0.184314f,0.309804f)
+#define  Navy				glm::vec3(0.137255f,0.137255f,0.556863f)
+#define  NavyBlue			glm::vec3(0.137255f,0.137255f,0.556863f)
+#define  Orange				glm::vec3(1.0f,0.5f,0.0f)
+#define  Orchid				glm::vec3(0.858824f,0.439216f,0.858824f)
+#define  PaleGreen			glm::vec3(0.560784f,0.737255f,0.560784f)
+#define  Pink				glm::vec3(0.737255f,0.560784f,0.560784f)
+#define  Plum				glm::vec3(0.917647f,0.678431f,0.917647f)
+#define  Salmon				glm::vec3(0.435294f,0.258824f,0.258824f)
+#define  SeaGreen			glm::vec3(0.137255f,0.556863f,0.419608f)
+#define  Sienna				glm::vec3(0.556863f,0.419608f,0.137255f)
+#define  SkyBlue			glm::vec3(0.196078f,0.6f,0.8f)
+#define  SteelBlue			glm::vec3(0.137255f,0.419608f,0.556863f)
+#define  Tan				glm::vec3(0.858824f,0.576471f,0.439216f)
+#define  Thistle			glm::vec3(0.847059f,0.74902f,0.847059f)
+#define  Turquoise			glm::vec3(0.678431f,0.917647f,0.917647f)
+#define  Violet				glm::vec3(0.309804f,0.184314f,0.309804f)
+#define  VioletRed			glm::vec3(0.8f,0.196078f,0.6f)
+#define  Wheat				glm::vec3(0.847059f,0.847059f,0.74902f)
+#define  YellowGreen		glm::vec3(0.6f,0.8f,0.196078f)
+#define  SummerSky			glm::vec3(0.22f,0.69f,0.87f)
+#define  RichBlue			glm::vec3(0.35f,0.35f,0.67f)
+#define  Brass				glm::vec3(0.71f,0.65f,0.26f)
+#define  Copper				glm::vec3(0.72f,0.45f,0.20f)
+#define  Bronze				glm::vec3(0.55f,0.47f,0.14f)
+#define  Bronze2			glm::vec3(0.65f,0.49f,0.24f)
+#define  Silver				glm::vec3(0.90f,0.91f,0.98f)
+#define  BrightGold			glm::vec3(0.85f,0.85f,0.10f)
+#define  OldGold			glm::vec3(0.81f,0.71f,0.23f)
+#define  Feldspar			glm::vec3(0.82f,0.57f,0.46f)
+#define  Quartz				glm::vec3(0.85f,0.85f,0.95f)
+#define  NeonPink			glm::vec3(1.0f,0.43f,0.78f)
+#define  DarkPurple			glm::vec3(0.53f,0.12f,0.47f)
+#define  NeonBlue			glm::vec3(0.30f,0.30f, 1.00f)
+#define  CoolCopper			glm::vec3(0.85f,0.53f,0.10f)
+#define  MandarinOrange		glm::vec3(0.89f,0.47f,0.20f)
+#define  LightWood			glm::vec3(0.91f,0.76f,0.65f)
+#define  MediumWood			glm::vec3(0.65f,0.50f,0.39f)
+#define  DarkWood			glm::vec3(0.52f,0.37f,0.26f)
+#define  SpicyPink			glm::vec3(1.0f,0.11f,0.68f)
+#define  SemiSweetChoc		glm::vec3(0.42f,0.26f,0.15f)
+#define  BakersChoc			glm::vec3(0.36f,0.20f,0.09f)
+#define  Flesh				glm::vec3(0.96f,0.80f,0.69f)
+#define  NewTan				glm::vec3(0.92f,0.78f,0.62f)
+#define  NewMidnightBlue	glm::vec3(0.00f,0.00f,0.61f)
+#define  VeryDarkBrown		glm::vec3(0.35f,0.16f,0.14f)
+#define  DarkBrown			glm::vec3(0.36f,0.25f,0.20f)
+#define  DarkTan			glm::vec3(0.59f,0.41f,0.31f)
+#define  GreenCopper		glm::vec3(0.32f,0.49f,0.46f)
+#define  DkGreenCopper		glm::vec3(0.29f,0.46f,0.43f)
+#define  DustyRose			glm::vec3(0.52f,0.39f,0.39f)
+#define  HuntersGreen		glm::vec3(0.13f,0.37f,0.31f)
+#define  Scarlet			glm::vec3(0.55f,0.09f,0.09f)
