@@ -1,3 +1,3 @@
-# sandbox_v2
+## sandbox_v2
 
-More triangles.
+Learning OpenGL but first, more triangles.
